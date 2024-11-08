@@ -40,13 +40,26 @@ elif Creatures[1][1][1] > Creatures[0][1][1] and Creatures[1][1][1] > Creatures[
         print(Creatures[2][0])
         print(Creatures[0][0])
 else:
-        print(Creatures[2][0])
-        if Creatures[0][1][1] > Creatures[1][1][1]:
-            print(Creatures[0][0])
-            print(Creatures[1][0])
-        else:
-            print(Creatures[1][0])
-            print(Creatures[0][0])
+    print(Creatures[2][0])
+    if Creatures[0][1][1] > Creatures[1][1][1]:
+        print(Creatures[0][0])
+        print(Creatures[1][0])
+    else:
+        print(Creatures[1][0])
+        print(Creatures[0][0])
 
 
-
+#CreaturesAux=["a","b","c"]
+#
+#for i in range(0, 3):
+#    for j in range(i+1, 3):
+#        if(Creatures[i][1][1] > Creatures[j][1][1]):
+#            temp = Creatures[i][1][1]
+#            Creatures[i][1][1] = Creatures[j][1][1]
+#            Creatures[j][1][1] = temp
+#            CreaturesAux.append(Creatures[i][1][1])
+#        else:
+#            CreaturesAux.append(Creatures[j][1][1])
+#            
+#
+#print(CreaturesAux)
